@@ -20,28 +20,48 @@
 </head>
 
 
-<script type="module" src="./src/js/main.js"></script>
 
 <body>
 
     <header>
-        <nav class="d-flex align-items-center justify-content-between">
-            <img src="./public/icons/final-logo.webp" height="150">
-            <section class="">
-                <button type="button" class="btn btn-outline-success m-5">ABOUT US</button>
-                <button type="button" class="btn btn-outline-success m-5">SERVICES</button>
-                <button type="button" class="btn btn-outline-success m-5">PRODUCTS</button>
-                <button type="button" class="btn btn-outline-success m-5">CONTAC US</button>
-                <button type="button" class="btn btn-outline-success m-5">LOGIN</button>
-            </section>
-
-
+        <nav class="navbar navbar-expand-lg bg-body-tertiary justify-content-around border border-danger">
+            <div class="d-flex flex-column border border-dark">
+                <img src="./public/icons/final-logo.webp" class="border border-warning" height="150" alt="">
+                <a class="navbar-brand" href="#">CANNA-HEALTH</a>
+            </div>
+            <div class="d-flex  border border-dark">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PRODUCTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">LOGIN</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
 
     </main>
     <footer></footer>
+    <button type="button" id="btn" class="btn btn-primary">BOTÒN</button>
+    <script type="module" src="./src/js/main.js"></script>
 </body>
 
 </html>
